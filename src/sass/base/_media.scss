@@ -1,0 +1,32 @@
+@media (max-width: 991px) {
+    .header {
+        padding: 0 25px 0 25px;
+    }
+    .promo__wrapper {
+        margin-right: 50px;
+    }
+    .benefits__icons {
+        padding: 0 30px 0 30px;
+    }
+    .promo {
+        background: url(../img/main.png) center left/cover no-repeat;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo__wrapper {
+        margin-right: 0px;
+        align-items: center;
+    }
+    .benefits__icons {
+        flex-direction: column;
+        align-items:center;
+    }
+    .benefits__icon {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+
+}
