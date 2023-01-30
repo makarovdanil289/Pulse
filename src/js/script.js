@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $('.carousel__inner').slick({
+        speed: 300,
+        // adaptiveHeight: true,
+        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/prevArrow.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="../icons/nextArrow.png"></button>',
+        responsive: [
+            {
+              breakpoint: 992,
+              settings: {               
+                dots: true,
+                arrows: false
+              }
+            }
+            
+          ]
+    });
+  });
