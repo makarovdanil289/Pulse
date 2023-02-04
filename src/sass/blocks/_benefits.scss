@@ -12,6 +12,15 @@
         flex-direction: column;
         align-items: center;
         max-width: 238px;
+        &_animated  {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__subtitle {
         margin-top: 35px;
@@ -30,4 +39,5 @@
             color:red;
         }
     }
+    
 }
